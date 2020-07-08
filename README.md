@@ -66,7 +66,9 @@ int main()
     rpcServer.start();
     loop.loop();
 }
+
 ```
+
 ## 安装
 
 需要gcc 7.x（能支持C++17的编译器即可）
@@ -78,8 +80,9 @@ $ cmake .. && make -j 16
 ```
 生成的可执行文件在 `build/bin` 中
 
+
 ## 参考
 
 - [muduo](https://github.com/chenshuo/muduo)
-- [rapidJson](https://github.com/Tencent/rapidjson)
+- [json-tutorial](https://github.com/miloyip/json-tutorial)
 - [libjson-rpc-cpp](https://github.com/cinemast/libjson-rpc-cpp)
